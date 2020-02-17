@@ -1,0 +1,36 @@
+.imagedisplay{
+    float:left;
+    margin-top:100px;
+    margin-left:10%;
+    height:300px;
+    width:250px;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .time{
+    position:absolute;
+    top:50%;
+    left:19%;
+    transform: translate(-50%,-50%);
+  }
+  .heart{
+    position:absolute;
+    top:50%;
+    left:19%;
+    transform: translate(-50%,-50%);
+    color:white;
+  }
+  .heart > i{
+    margin-top:16px;
+    padding-top:20px;
+    margin-left:10px;
+    color:red;
+    animation:heartbeat .40s infinite alternate;
+  }
+  
+  @keyframes  heartbeat{
+    to{transform: scale(1.9);}
+  }
+  .heart>p{
+    margin-top:15px;
+  }

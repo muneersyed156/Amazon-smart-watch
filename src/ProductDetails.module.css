@@ -1,0 +1,64 @@
+.contentdisplay{
+  float:left;
+  margin-top:50px;
+  margin-left:10%;
+  height:75vh;
+  width:50vw;
+
+}
+
+.title{
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left:10px;
+  font-weight: 200;
+  font-weight: 500;
+}
+
+.select{
+  margin-left:40px;
+  height:100px;
+  width:75px;
+  float:left;
+  cursor: pointer;
+}
+.selected{
+  border:2px solid teal;
+  border-radius:10px;
+ 
+}
+
+.featureList{
+  position:absolute;
+  top:450px;
+}
+.features{
+  margin-left:50px;
+}
+
+button{
+  background-color: grey;
+  padding:8px 16px 8px 16px;
+  border-radius:5px;
+  outline:none;
+  border:none;
+  color:white;
+  cursor:pointer;
+}
+
+.highlight{
+  background:white;
+  color:black;
+  border:2px solid teal;
+}
+
+.special{
+  padding:10px 20px 10px 20px;
+  border-radius:5px;
+  margin-left:50px;
+  outline:none;
+  border:none;
+  color:white;
+  cursor:pointer;
+  background-color: teal;
+}
